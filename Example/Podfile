@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WZPullRefresh_Example' do
+  pod 'WZPullRefresh', :path => '../'
+
+  target 'WZPullRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
