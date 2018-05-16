@@ -1,0 +1,31 @@
+PODS:
+  - ReactiveCocoa (7.2.0):
+    - ReactiveSwift (~> 3.1)
+  - ReactiveSwift (3.1.0):
+    - Result (~> 3.2)
+  - Result (3.2.4)
+  - WZPullRefresh (0.1.0):
+    - ReactiveCocoa (~> 7.2.0)
+
+DEPENDENCIES:
+  - WZPullRefresh (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Result
+
+EXTERNAL SOURCES:
+  WZPullRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactiveCocoa: 476dae7ca790f40d30d186a1bd7ebae4290395d5
+  ReactiveSwift: 5b26d2e988fe0eed2daf48c4054d1de74db50184
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  WZPullRefresh: 058366f3214384d94d4b63ec07fa53efb0762baf
+
+PODFILE CHECKSUM: c05158493bf1d5154f36ff5825c0775348ffa62c
+
+COCOAPODS: 1.5.2
